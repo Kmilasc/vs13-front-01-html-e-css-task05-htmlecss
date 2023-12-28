@@ -1,5 +1,6 @@
 header {
         width: 100%;
+        
 }
 
 nav {
@@ -36,6 +37,7 @@ li {
 a {
     color: black;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .image-container {
@@ -50,6 +52,7 @@ a {
     transform: translate(-50%, -50%);
     color: black;
     font-size: 90px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .img-home {
@@ -62,6 +65,7 @@ a {
 .sub-title {
     font-size: 20px;
     margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .body-container {
@@ -72,11 +76,13 @@ footer{
     background-color: #837a5f;
     width: 100%;
     margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .title{
     margin-top: 50px;
     margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .img-contact{
@@ -91,10 +97,12 @@ form {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 form div {
     margin-bottom: 10px;
+    
 }
 
 form span {
@@ -102,6 +110,7 @@ form span {
     margin-bottom: 5px;
     color: #333;
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 form input[type="text"],
@@ -119,6 +128,7 @@ form input[type="text"]:focus,
 form input[type="email"]:focus,
 form textarea:focus {
     background: #f3f5f4;
+
 }
 
 form button {
@@ -135,11 +145,13 @@ form button {
 
 form button:hover {
     background-color: #15775a;
+    font-family: 'Open Sans', sans-serif;
 }
 
 form textarea {
     height: 120px;
     resize: vertical;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .texto-quadrado {
@@ -149,4 +161,9 @@ form textarea {
     display: flex; 
     align-items:normal; 
     justify-content: center; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+table{
+    font-family: 'Open Sans', sans-serif;
 }
