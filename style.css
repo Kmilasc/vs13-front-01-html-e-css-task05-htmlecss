@@ -1,3 +1,7 @@
+header {
+        width: 100%;
+}
+
 nav {
     background-color: #D7CEB2;
 }
@@ -13,12 +17,16 @@ nav {
 
 body {
     margin: 0px;
-    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-right: 0px;
 }
 
 li:not(:last-child) {
     margin-right: 150px;
-    
 }
 
 li {
@@ -26,7 +34,119 @@ li {
 }
 
 a {
-    color: black; 
+    color: black;
     text-decoration: none;
+}
 
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 90px;
+}
+
+.img-home {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.sub-title {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.body-container {
+    padding-left: 250px;
+}
+
+footer{
+    background-color: #837a5f;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.img-contact{
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form span {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    background: #f3f5f4;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(53, 189, 148);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form button:hover {
+    background-color: #15775a;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.texto-quadrado {
+    width: 800px; 
+    height: 300px; 
+    overflow: hidden; 
+    display: flex; 
+    align-items:normal; 
+    justify-content: center; 
 }

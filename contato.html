@@ -8,6 +8,7 @@
     <meta name="description" content="Site de viagens: Explore destinos incríveis com a Dev pelo mundo.">
     <meta name="author" content="Kamilla Andrade">
     <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Contato</title>
 </head>
 <body>
@@ -20,25 +21,27 @@
             </ul>
         </nav>
     </header>
-    <h1>Contato</h1>
+    <h1 class="title">Contato</h1>
     <div>
-        <img src="./img/carta.jpg" alt="Imagem de uma carta" width="100%" height="500px">
-        <h3>Dúvidas, sugestões, elogios ou reclamações Deixa uma mensagem pra mim, vou adorar recebê-la!</h3>
+        <div >
+                    <img class="img-home" src="./img/carta.jpg" alt="Imagem de uma carta">
 
-        <form>
-            <div>
-                <span>Seu nome (obrigatório)</span>
-                <input type="text" placeholder="Nome" required>
+        </div>
+        <h3 class="sub-title">Dúvidas, sugestões, elogios ou reclamações Deixa uma mensagem pra mim, vou adorar recebê-la!</h3>
+        <form class="form-container">
+            <div class="form-group">
+                <span class="form-label">Seu nome (obrigatório)</span>
+                <input type="text" class="form-input" placeholder="Nome" required>
             </div>
-            <div>
-                <span>Seu e-mail (obrigatório)</span>
-                <input type="email" placeholder="e-mail" required>
+            <div class="form-group">
+                <span class="form-label">Seu e-mail (obrigatório)</span>
+                <input type="email" class="form-input" placeholder="e-mail" required>
             </div>
-            <div>
-                <span>Sua mensagem</span>
-                <textarea placeholder="Escreva sua mensagem" required></textarea>
+            <div class="form-group">
+                <span class="form-label">Sua mensagem</span>
+                <textarea class="form-textarea" placeholder="Escreva sua mensagem" required></textarea>
             </div>
-            <button type="submit">Enviar</button>
+            <button type="submit" class="form-button">Enviar</button>
         </form>
     </div>
     <footer>
