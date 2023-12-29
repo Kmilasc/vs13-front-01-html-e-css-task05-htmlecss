@@ -1,6 +1,5 @@
 header {
-        width: 100%;
-        
+        width: 100%;    
 }
 
 nav {
@@ -154,6 +153,17 @@ form textarea {
     resize: vertical;
     font-family: 'Open Sans', sans-serif;
 }
+
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px iline #dadada; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); 
+}
+
 
 .texto-quadrado {
     width: 800px; 
