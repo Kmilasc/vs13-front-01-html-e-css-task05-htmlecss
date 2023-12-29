@@ -42,3 +42,10 @@ Marcado o rodapé com role="contentinfo" para informar que contém informações
 
 Impacto das Alterações:
 Essas alterações visam aumentar a acessibilidade do site, permitindo uma melhor navegação e compreensão do conteúdo por parte dos usuários com deficiências visuais que utilizam leitores de tela. Com a implementação dessas tags ARIA, o site se torna mais inclusivo e acessível a um público mais amplo.
+
+Sobre boa utilização de formatos e dimensionamento de imagens:
+
+ 1. As imagens foram comprimidas para reduzir o tempo de carregamento da página, mas mantendo uma qualidade visual aceitável.
+ 2. Foi ajustado o tamanho da imagem "Carta" para manter sua qualidade, pois antes estava visivelmente esticada e deformada.
+ 3. As imagens possuem textos que as descrevem
+ 4. 
