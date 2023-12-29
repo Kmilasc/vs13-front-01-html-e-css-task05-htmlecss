@@ -18,7 +18,6 @@ nav {
 
 body {
     margin: 0px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -68,6 +67,13 @@ a {
     font-family: 'Open Sans', sans-serif;
 }
 
+.sub-title-contact {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 200px;
+}
+
 .body-container {
     padding-left: 250px;
 }
@@ -77,12 +83,7 @@ footer{
     width: 100%;
     margin-top: 50px;
     font-family: 'Open Sans', sans-serif;
-}
-
-.title{
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
+    display: flow-root;
 }
 
 .img-contact{
@@ -158,12 +159,25 @@ form textarea {
     width: 800px; 
     height: 300px; 
     overflow: hidden; 
-    display: flex; 
     align-items:normal; 
     justify-content: center; 
     font-family: 'Open Sans', sans-serif;
 }
 
 table{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title-destiny {
+    margin-left: 245px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title-contact {
+    margin-left: 650px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     font-family: 'Open Sans', sans-serif;
 }
