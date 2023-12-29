@@ -13,38 +13,37 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="menu">
-                <li><a href="./index.html">Página Inicial</a></li>
-                <li><a href="./destinos.html">Destinos</a></li>
-                <li><a href="./contato.html">Contato</a></li>
+        <nav role="navigation">
+            <ul class="menu" role="menu">
+                <li role="menuitem"><a href="./index.html">Página Inicial</a></li>
+                <li role="menuitem"><a href="./destinos.html">Destinos</a></li>
+                <li role="menuitem"><a href="./contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <h1 class="title-contact">Contato</h1>
+    <h1 class="title-contact" role="heading" aria-level="1">Contato</h1>
     <div>
-        <div >
-                    <img class="img-home" src="./img/carta.jpg" alt="Imagem de uma carta">
-
+        <div>
+            <img class="img-home" src="./img/carta.jpg" alt="Imagem de uma carta" role="img" aria-label="Imagem simbolizando contato">
         </div>
-        <h3 class="sub-title-contact">Dúvidas, sugestões, elogios ou reclamações Deixa uma mensagem pra mim, vou adorar recebê-la!</h3>
+        <h3 class="sub-title-contact" role="heading" aria-level="2">Dúvidas, sugestões, elogios ou reclamações? Deixe uma mensagem pra mim, vou adorar recebê-la!</h3>
         <form class="form-container">
             <div class="form-group">
-                <span class="form-label">Seu nome (obrigatório)</span>
-                <input type="text" class="form-input" placeholder="Nome" required>
+                <span id="nomeLabel" class="form-label">Seu nome (obrigatório)</span>
+                <input type="text" class="form-input" placeholder="Nome" required aria-labelledby="nomeLabel">
             </div>
             <div class="form-group">
-                <span class="form-label">Seu e-mail (obrigatório)</span>
-                <input type="email" class="form-input" placeholder="e-mail" required>
+                <span id="emailLabel" class="form-label">Seu e-mail (obrigatório)</span>
+                <input type="email" class="form-input" placeholder="e-mail" required aria-labelledby="emailLabel">
             </div>
             <div class="form-group">
-                <span class="form-label">Sua mensagem</span>
-                <textarea class="form-textarea" placeholder="Escreva sua mensagem" required></textarea>
+                <span id="mensagemLabel" class="form-label">Sua mensagem</span>
+                <textarea class="form-textarea" placeholder="Escreva sua mensagem" required aria-labelledby="mensagemLabel"></textarea>
             </div>
             <button type="submit" class="form-button">Enviar</button>
         </form>
     </div>
-    <footer>
+    <footer role="contentinfo">
         <div>
             <p>Me siga no Instagram: <a href="https://instagram.com/devpelomundo">@devpelomundo</a></p>
             <p>Entre em contato: <a href="mailto:devpelomundo@gmail.com">devpelomundo@gmail.com</a></p>
