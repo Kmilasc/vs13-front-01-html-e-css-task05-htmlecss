@@ -88,9 +88,10 @@ footer{
 .img-contact{
     margin-top: 50px;
     display: block;
-    width: 100%;
+    width: 70%;
     height: auto;
     object-fit: cover;
+    padding-left: 15%;
 }
 
 form {
