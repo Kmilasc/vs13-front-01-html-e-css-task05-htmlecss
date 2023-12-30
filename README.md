@@ -37,15 +37,19 @@ Implementado role="img" e aria-label em imagens importantes (como na imagem da h
 
 5. ARIA Roles em Cabeçalhos
 Aplicado role="heading" e aria-level nos elementos <h1>, <h2>, etc., para indicar a hierarquia dos cabeçalhos de forma mais clara.
-6. ARIA em Formulários
-Utilizado aria-labelledby nos campos de entrada do formulário de contato para associar as etiquetas de texto aos respectivos campos.
-7. ARIA em Tabelas
-Adicionado role="table" na tag <table> e scope nas tags <th> para indicar cabeçalhos de colunas, melhorando a interpretação das tabelas.
-8. ARIA Role em Rodapé
-Marcado o rodapé com role="contentinfo" para informar que contém informações sobre o conteúdo do site.
+![image](https://github.com/Kmilasc/vs13-front-01-html-e-css-task03-htmlecss/assets/110876983/6b7084b4-bb15-4dc0-8039-fc2d3cb68757)
 
-Impacto das Alterações:
-Essas alterações visam aumentar a acessibilidade do site, permitindo uma melhor navegação e compreensão do conteúdo por parte dos usuários com deficiências visuais que utilizam leitores de tela. Com a implementação dessas tags ARIA, o site se torna mais inclusivo e acessível a um público mais amplo.
+7. ARIA em Formulários
+Utilizado aria-labelledby nos campos de entrada do formulário de contato para associar as etiquetas de texto aos respectivos campos.
+![image](https://github.com/Kmilasc/vs13-front-01-html-e-css-task03-htmlecss/assets/110876983/3631f7e9-46b4-422e-ba55-7b8c84db9d37)
+
+9. ARIA em Tabelas
+Adicionado role="table" na tag <table> e scope nas tags <th> para indicar cabeçalhos de colunas, melhorando a interpretação das tabelas.
+![image](https://github.com/Kmilasc/vs13-front-01-html-e-css-task03-htmlecss/assets/110876983/fa08532f-f357-4c81-831c-35d071cd38bb)
+
+11. ARIA Role em Rodapé
+Marcado o rodapé com role="contentinfo" para informar que contém informações sobre o conteúdo do site.
+![image](https://github.com/Kmilasc/vs13-front-01-html-e-css-task03-htmlecss/assets/110876983/3b682384-5dc5-498f-976b-97594022a5ee)
 
 Sobre boa utilização de formatos e dimensionamento de imagens:
 
@@ -53,3 +57,6 @@ Sobre boa utilização de formatos e dimensionamento de imagens:
  2. Foi ajustado o tamanho da imagem "Carta" para manter sua qualidade, pois antes estava visivelmente esticada e deformada.
     ![image](https://github.com/Kmilasc/vs13-front-01-html-e-css-task03-htmlecss/assets/110876983/d176f142-d48d-40bc-a3c3-3ca4327291e5)
  4. As imagens possuem textos que as descrevem
+
+Impacto das Alterações:
+Essas alterações visam aumentar a acessibilidade do site, permitindo uma melhor navegação e compreensão do conteúdo por parte dos usuários com deficiências visuais que utilizam leitores de tela. Com a implementação dessas tags ARIA, o site se torna mais inclusivo e acessível a um público mais amplo.
