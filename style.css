@@ -72,6 +72,7 @@ a {
 }
 
 .image-container {
+    width: 100%;
     position: relative;
     display: inline-block;
 }
@@ -122,12 +123,15 @@ a {
     font-family: 'Open Sans', sans-serif;
 }
 
+body > div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .sub-title-contact {
     text-align: center;
     font-size: 20px;
     padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -154,7 +158,11 @@ a {
     width: 75%;
 }
 
-footer{
+.body-container > div > img {
+    width: 75%;
+}
+
+footer {
     background-color: #837a5f;
     width: 100%;
     margin-top: 50px;
@@ -162,7 +170,15 @@ footer{
     padding-left: 10px;
     font-family: 'Open Sans', sans-serif;
     display: flow-root;
+    font-size: 10px;
 }
+
+@media (min-width: 450px) {
+    footer {
+        font-size: 16px;
+    }
+}
+
 
 .img-contact{
     margin-top: 50px;
@@ -236,7 +252,6 @@ form textarea {
 
 .form-container {
     max-width: 600px;
-    margin: 20px auto;
     padding: 20px;
     font-family: 'Open Sans', sans-serif;
     border: 2px iline #dadada; 
@@ -246,12 +261,18 @@ form textarea {
 
 
 .texto-quadrado {
-    height: 300px; 
     overflow: hidden; 
     align-items:normal; 
     justify-content: center; 
     font-family: 'Open Sans', sans-serif;
 }
+
+@media (max-width: 550px) {
+    .texto-quadrado  {
+        font-size: 12px;
+    }
+}
+
 
 table{
     font-family: 'Open Sans', sans-serif;
@@ -282,5 +303,24 @@ nav ul.menu li a:hover {
     100% {
         color: white;
         transform: scale(1.1);
+    }
+}
+
+.mi-alves {
+    width: 280px;
+    height: 155px;
+}
+
+@media (min-width: 450px) {
+    .mi-alves {
+        width: 400px;
+        height: 205px;
+    }
+}
+
+@media (min-width: 700px) {
+    .mi-alves {
+        width: 560px;
+        height: 315px;
     }
 }
